@@ -11,8 +11,8 @@ Corey Nagel, Matt Binsfeld, and Jordan Tsiao
         foobar@example.com   testing
         user1@example.com   testing
 
-About: For our software methods class at CU Boulder, we made a simple version of Facebook in Ruby on Rails
-       based on the functionality of Facebook from 2004.
+About: 
+    For our software methods class at CU Boulder, we made a simple version of Facebook in Ruby on Rails based on the functionality of Facebook from 2004.
 
 
 Models:
