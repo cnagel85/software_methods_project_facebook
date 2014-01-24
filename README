@@ -1,10 +1,18 @@
 Software Engineering Methods Project
 
-The Facebook
+A Simple Facebook Application
 
 Corey Nagel, Matt Binsfeld, and Jordan Tsiao
 
+    Live Website: http://fast-plateau-9495.herokuapp.com/
 
+    If you want to look around, here are some logins for a few of the accounts, or
+    feel free to make your own account and check it out.
+        foobar@example.com   testing
+        user1@example.com   testing
+
+About: For our software methods class at CU Boulder, we made a simple version of Facebook in Ruby on Rails
+       based on the functionality of Facebook from 2004.
 
 
 Models:
@@ -42,6 +50,7 @@ Relationship -
 Micropost -
   belongs to user and a wall
   has many comments
+  has many likes
   can only be seen by user's friends
   attributes:
     text
@@ -50,3 +59,6 @@ comment -
   belong to micropost and user
   attribute:
     text
+
+likes -
+    belong to micropost
